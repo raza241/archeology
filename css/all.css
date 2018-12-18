@@ -1,0 +1,236 @@
+body{
+	margin:0;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:12px;
+	background:#FFF;
+}
+#header{
+	width:81.4%;
+	margin:0 auto;
+	font-size:22px;
+	font-family:myriad pro;
+	padding:26px 0;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+#header .logo a{
+	background:url(../images/logo.png) no-repeat;
+	width:197px;
+	height:124px;
+	display:block;
+}
+#header .contact{
+	padding:50px 0 0;
+}
+#header .contact span{
+	color:#F00;
+	margin:0 5px 0;
+}
+#header .contact a{
+	text-decoration:none;
+	color:#000;
+}
+#banner{
+	max-width:1200px;
+	margin:0 auto;
+}
+#banner img{
+	width:100%;
+	height:auto;
+}
+#content{
+	background:#f26721;
+	overflow:hidden;
+	padding:130px 0 50px;
+	margin:-100px 0 0;
+	display:flex;
+	align-items: center;
+	justify-content: center;
+	
+}
+
+#content .holder{
+	width:81.4%;
+	margin:0 auto;
+	transform: translateY(50px);
+	transition: all 1s ease-out;
+}
+#content .holder.fade-in{
+	opacity: 1;
+	transform: translateY(0);
+}
+#content .holder .detail{
+	width:54.3%;
+	float:left;
+}
+#content .holder p{
+	color:#fff;
+	font-size:18px;
+	margin:0 0 10px;
+}
+#content .holder .image{
+	float:right;
+	width:40.5%;
+}
+#content .holder .image img{
+	width:100%;
+	height:auto;
+}
+#content1{
+	background:#fff;
+	overflow:hidden;
+	padding:50px 0;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+#content1 .holder{
+	width:81.4%;
+	margin:0 auto;
+}
+#content1 .holder .img{
+	float:left;
+	width:37%;
+	text-align:center;
+}
+#content1 .holder .img img{
+	box-shadow:#003 0 0 10px -4px;
+	margin:0 0 20px 0;
+}
+#content1 .holder span{
+	color:#000;
+	font-size:23px;
+	font-family:myriad pro;
+	display:block;
+}
+#content1 .holder .detail{
+	width:54.3%;
+	float:right;
+}
+#content1 .holder .detail p{
+	font-size:16px;
+	font-family:Trebuchet MS;
+	margin:0;
+}
+#content1 .holder .detail a{
+	font-size:18px;
+	font-family:myriad pro;
+	text-decoration:none;
+	border:3px solid #f26721;
+	border-radius:10px;
+	color:#000;
+	display:inline-block;
+	padding:10px 20px;
+	margin:25px 0 0 0;
+}
+#content1 .holder .detail a:hover{background:#f26721; color:#fff;}
+#content2{
+	background:#343434;
+	overflow:hidden;
+	padding:50px 0;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	transform: translateY(50px);
+	transition: all 1s ease-out;
+}
+.fade-in{
+	opacity: 1;
+	transform: translateY(0);
+}
+#content2 .holder{
+	width:81.4%;
+	margin:0 auto;
+}
+#content2 .holder .img{
+	float:right;
+	width:23%;
+	text-align:center;
+}
+#content2 .holder .img img{
+	box-shadow:#003 0 0 10px -4px;
+	margin:0 0 20px 0;
+}
+#content2 .holder .detail{
+	width:54.3%;
+	overflow:hidden;
+	float:left;
+}
+#content2 .holder .detail p{
+	font-size:16px;
+	font-family:Trebuchet MS;
+	margin:0;
+	color:#fff;
+}
+#content2 .holder .detail span{
+	color:#f26721;
+	font-size:16px;
+}
+#content2 .holder .detail a{
+	font-size:18px;
+	font-family:myriad pro;
+	text-decoration:none;
+	background:#343434;
+	border-radius:10px;
+	color:#fff;
+	display:inline-block;
+	padding:10px 20px;
+	margin:25px 0 0 0;
+	border:3px solid #f26721;
+}
+#content2 .holder .detail a:hover{background:#f26721;}
+#footer{
+	background:#000;
+	overflow:hidden;
+	padding:50px 0;
+	height: 100vh;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+#footer .holder{
+	width:510px;
+	margin:0 auto;
+	text-align:center;
+}
+#footer .holder .detail{
+	
+	margin:0 0 10px 0;
+}
+#footer .holder .detail span{
+	color:#fff;
+	margin:0 10px 0 0;
+	font-family:myriad pro;
+}
+#footer .holder .detail a{
+	font-size:18px;
+	font-family:myriad pro;
+	text-decoration:none;
+	border:3px solid #f26721;
+	border-radius:10px;
+	color:#fff;
+	display:inline-block;
+	padding:10px 20px;
+	margin:25px 0 0 0;
+}
+#footer .holder .detail a:hover{background:#f26721;}
+#footer .holder .img{
+	width:445px;
+}
+#footer .holder .img span{
+	color:#fff;
+	font-size:12px;
+	font-family:myriad pro;
+	border-right:1px solid #fff;
+	padding:0 5px;
+	margin:12px 0 0;
+	display:inline-block;
+	overflow:hidden;
+}
+#footer .holder .img span:last-child{border:none;}
+#footer .holder .img p{
+	color:#fff;
+	font-size:12px;
+	font-family:myriad pro;
+}
